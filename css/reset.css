@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* css reset */
+*{padding:0; margin:0;box-sizing: border-box;font:16px/1 "微软雅黑";}
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,input,form,dd,dt,dl,ol,caption,td,tr,th,hr{padding:0; margin:0;font:16px/1 "微软雅黑";}
+h1,h2,h3,h4,h5,h6{height:16px;font:16px/1 "微软雅黑";}
+html{height:100%; width:100%;}
+body{background:#fff; width:100%; font-size:12px; font-family:tahoma,arial,微软雅黑,sans-serif; color:#666;}
+a{text-decoration:none;color:#555;}
+a:visited{text-decoration:none;color:#555;}
+a:active{text-decoration:none;color:#555;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,em,i,b,strong{font-weight:normal; font-style:normal;}
+table,div,img{border-collapse:collapse;border-spacing:0;}
+img{border:0;vertical-align:middle;}
+b{font: 16px/1 "微软雅黑";font-weight: 700;display: inline;}
+button,input,select,textarea{font-size:100%; outline:0;}
+:focus{outline:0;}
+textarea{overflow:auto; vertical-align:top; resize:none;}
+button, input[type="button"], input[type="reset"], input[type="submit"]{cursor:pointer;-webkit-appearance: button; *overflow: visible;}
+.clearfix{zoom:1; clear:both;}
+/*清除浮动*/
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
